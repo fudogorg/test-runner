@@ -1,0 +1,17 @@
+"params":{
+	"levelup_step":1000,
+	"scores_per_second":50,
+	"scores_per_coin":100,
+	"road":{"blocks":6, "start_speed":5.0, "levelup_speed_inc":0.2, "coins_priority":50, "levels_for_inc_obstacles":2},
+	"character":{
+		side_move_speed:"2.0",
+		line_offset:"0.85",
+		jump_power:"250"
+	},
+	"obstacles":[
+		{"name":"box1", "line0":-1.0, "line1":0.0, "line2":1.0, "type":"box"},
+		{"name":"box2", "line0":-1.0, "line1":0.0, "line2":1.0, "type":"box"},
+		{"name":"box3", "line0":-1.0, "line1":-0.5, "line2":0.0, "type":"box"},
+		{"name":"coin1", "line0":-0.85, "line1":0.0, "line2":0.85, "type":"coin"}
+	]
+}
